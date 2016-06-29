@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyShare>
+  <ShareElement ShareName="第一共享" IsFolder="True" LocalPath="C:\share" CanDelete="True" CanCreate="True" Size="5 B" Info="第一个共享文件夹c">
+  </ShareElement>
+  <ShareElement ShareName="The Funera/ Of Hearts" IsFolder="True" LocalPath="F:\music tools" CanDelete="True" CanCreate="True" Size="9.318745 MB" Info="音乐大全很多音乐文件！！！啊哈哈 其实是假的">
+  </ShareElement>
+  <ShareElement ShareName="windows应用高级编程``~|][{}-+=/" IsFolder="False" LocalPath="F:\downloadTNG\44061337.03_win2kxp_international.exe" CanDelete="True" CanCreate="False" Size="19.302690 MB" Info="学习资料windows">
+  </ShareElement>
+  <ShareElement ShareName="download2sdfsd" IsFolder="True" LocalPath="F:\download" CanDelete="False" CanCreate="False" Size="7.921920315 GB" Info="" />
+  <ShareElement ShareName="music tools" IsFolder="True" LocalPath="F:\music tools" CanDelete="False" CanCreate="False" Size="大小未知" Info="" />
+  <ShareElement ShareName="NetShareProj" IsFolder="True" LocalPath="F:\NetShareProj" CanDelete="False" CanCreate="False" Size="968.740 KB" Info="" />
+  <ShareElement ShareName="C# projects" IsFolder="True" LocalPath="F:\C# projects" CanDelete="False" CanCreate="False" Size="1.68756 MB" Info="" />
+  <ShareElement ShareName="download" IsFolder="True" LocalPath="F:\download" CanDelete="False" CanCreate="False" Size="7.921920315 GB" Info="" />
+  <ShareElement ShareName="System Volume Information~!@@##$$%%^^&amp;&amp;**((()))___++|}{[]" IsFolder="True" LocalPath="D:\System Volume Information" CanDelete="False" CanCreate="False" Size="13.341240 MB" Info="" />
+  <ShareElement ShareName="20064289542573.jpg" IsFolder="False" LocalPath="E:\20064289542573.jpg" CanDelete="False" CanCreate="False" Size="104.721 KB" Info="" />
+  <ShareElement ShareName="nightwish" IsFolder="True" LocalPath="F:\nightwish" CanDelete="False" CanCreate="False" Size="待修改！" Info="所有的音乐文件。" />
+  <ShareElement ShareName="打猴子.swf" IsFolder="False" LocalPath="F:\打猴子.swf" CanDelete="True" CanCreate="False" Size="529.243 KB" Info="打小人``" />
+  <ShareElement ShareName="本地磁盘 (E:)" IsFolder="True" LocalPath="E:\" CanDelete="False" CanCreate="False" Size="265.852 KB" Info="" />
+  <ShareElement ShareName="ShareTest" IsFolder="True" LocalPath="F:\ShareTest" CanDelete="False" CanCreate="False" Size="0 B" Info="" />
+  <ShareElement ShareName="workspace" IsFolder="True" LocalPath="D:\workspace" CanDelete="True" CanCreate="True" Size="9.328812 MB" Info="ffff" />
+  <ShareElement ShareName="program files" IsFolder="True" LocalPath="D:\program files" CanDelete="False" CanCreate="False" Size="3.235826117 GB" Info="" />
+  <ShareElement ShareName="folder.rar" IsFolder="True" LocalPath="E:\folder.rar" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+</MyShare>
+<!--ShareElement之间没有关系-->
+<!--一个共享目录，其子文件夹、文件皆为共享的-->
+<!--CanDelete可以在对方文件夹中删除；
+CanCreate可以在对方文件夹上传(添加)文件->仅仅对文件夹来说有用;
+共享文件的CanCreate一定为false,否则不可能-->
+<!--ShareName不可为空，不可冲突-->

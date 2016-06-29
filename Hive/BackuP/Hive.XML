@@ -1,0 +1,813 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hive</name>
+    </assembly>
+    <members>
+        <member name="T:Hive.Properties.Resources">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:Hive.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Hive.Properties.Resources.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:Hive.FormPersonalProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Hive.DockContentNew">
+            <summary>
+            继承自原来WeifenLuo的DockContent，并添加了IsShowed属性，表示当前是否显示（激活）。
+            </summary>
+        </member>
+        <member name="F:Hive.DockContentNew.IsShowed">
+            <summary>
+            标识此窗体是否已被显示（激活/获得焦点）
+            </summary>
+        </member>
+        <member name="F:Hive.FormPersonalProfile.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.FormPersonalProfile.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.FormPersonalProfile.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:Hive.MainForm">
+            <summary>
+            主窗体
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.PortUdpReceive">
+            <summary>
+            UDP接收端使用的端口,要发送到的端口
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.MainForm.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.MainForm.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.PMainForm">
+            <summary>指向MainForm实例对象(静态字段成员)
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.frmDocument">
+            <summary>我的共享（共享管理器）子窗体
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.frmPublicShare">
+            <summary>显示其他在线的人的子窗体
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.frmPersonalProfile">
+            <summary>个人信息子窗体
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.frmMyComputer">
+            <summary>我的电脑(添加共享)子窗体
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.btnBack">
+            <summary>访问公开的工具栏按钮的引用
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.btnForward">
+            <summary>访问公开的工具栏按钮的引用
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.WorkDirectory">
+            <summary>在构造时保存工作目录（程序可执行文件所在目录）
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.udpClientReceive">
+            <summary>
+            UDP接受对象
+            </summary>
+        </member>
+        <member name="F:Hive.MainForm.udpClientBroadcast">
+            <summary>
+            UDP广播发送对象
+            </summary>
+        </member>
+        <member name="M:Hive.MainForm.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Hive.MainForm.FindDocument(System.String)">
+            <summary>找到文档窗口并返回之!
+            </summary>
+            <param name="text">文档窗口的TabText</param>
+            <returns>IDockContent</returns>
+        </member>
+        <member name="M:Hive.MainForm.ReceiveUserStatusProc">
+            <summary>
+            后台线程函数:接收UDP广播,获取在线用户状态信息.在后台运行进行接收.
+            </summary>
+        </member>
+        <member name="M:Hive.MainForm.SendLocalUserStatusBroadcast(System.Boolean)">
+            <summary>
+            广播本地用户状态信息。使用timer组件，间隔2秒时间执行
+            </summary>
+            <param name="isOnline">上线广播还是下线广播</param>
+        </member>
+        <member name="M:Hive.MainForm.MainForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            载入函数
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:Hive.FormDocument">
+            <summary>此窗体类用于显示本地共享管理器
+            <para>本机上设置的共享目录，进行添加、删除等等操作实际为修改程序目录下的MyShare.xml文件</para>
+            </summary>
+        </member>
+        <member name="F:Hive.FormDocument.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.FormDocument.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.FormDocument.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Hive.FormDocument.CurrentDirIndex">
+            <summary> 当前目录在alDir中的位置索引
+            </summary>
+        </member>
+        <member name="F:Hive.FormDocument.alDir">
+            <summary>用于保存目录浏览历史的ArrayList
+            <para>是为了能够进行前进、返回目录操作</para>
+            </summary>
+        </member>
+        <member name="F:Hive.FormDocument.imageListIcons">
+            <summary>保存在浏览过程中曾经遇到过的文件扩展名对应的Icon,第0个元素是文件夹类型图标
+            <para>此后每遇到一个扩展名类型就搜索Key并返回其index，如果是新扩展名类型则添加之</para>
+            未知类型文件的图标在遇到它的时候添加并将其Key设为".?"
+            <para>exe文件存储其(路径,icon)作为(key,image)</para>
+            </summary>
+        </member>
+        <member name="F:Hive.FormDocument.pImageComboBox">
+            <summary> 可由外部访问的，指向本类中的ImageComboBoxShare控件。在Load事件中赋值
+            </summary>
+        </member>
+        <member name="M:Hive.FormDocument.#ctor">
+            <summary>窗体类FormDocument的公共构造函数。
+            </summary>
+        </member>
+        <member name="M:Hive.FormDocument.PaintListViewWithMyShare">
+            <summary><para>(显示根目录)读取MyShare.Xml文件，显示在ListView中；</para>
+            此函数可以由外部调用因为在改变我的共享时要再进行调用.
+            <para>(注意：此方法会重绘ListView和ImageComboBox的项目，选择将不复存在，因此需要提前保存他们被选择的项目)</para>
+            </summary>
+        </member>
+        <member name="M:Hive.FormDocument.GetIconIndexFromImageList(System.String)">
+             <summary>输入扩展名，从维护的ImageList列表中查找并返回对应扩展名的图标索引;如果不存在于ImageLIst中，则添加之并返回索引；
+            <para> 提供异常情况处理（如扩展名为空的情况,某些因为帮助类自身原因会发生异常）,推荐自行先判断</para>
+             若为exe文件，不应该使用此方法；本方法用于可根据扩展名分类的文件的图标
+             </summary>
+             <param name="extensionName">如果为空，要提前自己去处理！</param>
+             <returns>Icon在ImageList中的索引</returns>
+             <seealso cref="M:Hive.FormDocument.GetIconIndexOfExeFromImageList(System.String)"/>
+        </member>
+        <member name="M:Hive.FormDocument.GetIconIndexOfExeFromImageList(System.String)">
+            <summary>获取exe文件的图标，从ImageList中
+            </summary>
+            <param name="FullFileName">文件路径</param>
+            <returns></returns>
+            <seealso cref="M:Hive.FormDocument.GetIconIndexFromImageList(System.String)"/>
+        </member>
+        <member name="M:Hive.FormDocument.listViewShare_ItemActivate(System.Object,System.EventArgs)">
+            <summary>
+            ListView激活item事件响应方法
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormDocument.编辑共享属性PToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            菜单“编辑共享属性”事件响应方法
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormDocument.ExistsShareName(System.String)">
+            <summary>从XML共享列表文件中,检查ShareName同名是否已经存在，如果存在则返回true;
+            那么这样就不能添加同名的ListViewItem
+            </summary>
+            <param name="ShareName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.FormDocument.SelectItemByText(System.String)">
+            <summary>用于外部调用，以选中指定Item（获取焦点）；
+            <para>选中后就可以用这个选中的item做些其他事情</para>
+            </summary>
+            <param name="itemText">item.Text</param>
+        </member>
+        <member name="M:Hive.FormDocument.imageComboBoxShare_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>使用回车键响应用户操作：打开用户输入在地址栏的资源
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormDocument.ActivateItem(System.String)">
+             <summary>在当前ListView(不一定根目录)的Items中，根据text找到item,
+             根据其属性itemAttributes，按照要激活的item的类型（文件/文件夹）激活之。
+             并在路径栏显示当前路径。。。<para>
+            1. 在非直接输入ImageComboBox或非ImageComboBox的SelectedIndexChanged事件响应方法中，
+             要在本方法执行后,先取消订阅ImageComboBox的SelectedIndexChanged事件响应方法，
+             再修改ImageComboBox的Text值，再订阅selectedIndexChanged事件(这样使ListView的激活
+             与ImageComboBox的Text一致)</para>
+            2. 可以为ImageComboBox的SelectedIndexChanged事件直接使用本方法。
+             </summary>
+             <param name="itemText">当前ListView(不一定根目录)的Item的Text</param>
+             <returns>是否成功激活（打开）</returns>
+        </member>
+        <member name="M:Hive.FormDocument.PaintListViewInDirectory(System.String)">
+            <summary>绘制指定的虚拟路径到ListView中，本方法不进行路径检查，因此必须确保虚拟路径是存在的！
+            <para>根目录下每个共享文件夹的子文件夹要有一个属性来存储虚拟路径(相对共享根目录的路径)，
+            以知道其共享属性.</para>
+            ------------------>本方法没有修改imageComboBox的Text，调用时记得自行修改！！！（应该加上！）-----------------------
+            </summary>
+            <param name="virtualPath"> 文件夹 的虚拟路径(相对共享根目录路径)</param>
+            <returns>操作是否成功</returns>
+        </member>
+        <member name="M:Hive.FormDocument.GetLocalPathByVirtualPath(System.String,System.String@)">
+            <summary>根据虚拟路径返回对应本地物理路径，带出虚拟路径的第一个父共享目录的本地路径。
+            <para>如果虚拟路径不存在，或者获取的物理路径(文件/文件夹)不存在，则返回值和ParentLocalPath皆为null</para>
+            </summary>
+            <param name="virtualPath">虚拟路径（共享相对路径）</param>
+            <param name="ParentLocalPath">(输出参数)其找到的第一个父共享根目录（在XML中存在）</param>
+            <returns>虚拟路径对应的本地物理路径</returns>
+        </member>
+        <member name="M:Hive.FormDocument.GetShareNameByLocalPath(System.String)">
+            <summary>
+            根据本地路径获取共享名（必须为共享根路径）
+            </summary>
+            <param name="localPath">必须为共享根路径</param>
+            <returns></returns>
+            <seealso cref="M:Hive.FormDocument.GetLocalPathByVirtualPath(System.String,System.String@)"/>
+        </member>
+        <member name="M:Hive.FormDocument.imageComboBoxShare_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>使用ImageComboBox进行目录浏览(仅根目录下的目录浏览）
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormDocument.buttonGo_Click(System.Object,System.EventArgs)">
+            <summary>
+            使用“转到”按钮，类似于用路径打开
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Hive.FormLogo">
+            <summary>
+            窗体启动时先显示的logo窗体
+            </summary>
+        </member>
+        <member name="F:Hive.FormLogo.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.FormLogo.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.FormLogo.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:Hive.FormLogo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Hive.FormLogo.OpacityUp">
+            <summary>
+            窗体渐显
+            </summary> 
+        </member>
+        <member name="T:Hive.CToolClass">
+            <summary>工具类,给出本地路径，计算文件/文件夹的大小
+            <para>
+            <remarks>由于目前程序窗体调用本类中的方法时使用一个线程，
+            因此（特别是）在调用GetSizeOfFolder方法时常导致主窗体停止响应！
+            </remarks>
+            </para>
+            </summary>
+        </member>
+        <member name="M:Hive.CToolClass.getSizeOfFolder(System.String)">
+            <summary>私有方法成员:计算文件夹要用单独一个线程计算
+            </summary>
+            <param name="path">文件夹路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.CToolClass.GetSizeOfFolder(System.String)">
+            <summary>以友好的字符串的形式，返回路径参数中的文件夹的大小
+            </summary>
+            <param name="path">文件夹路径</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Hive.CToolClass.GetSizeOfFile(System.String)">
+            <summary>以友好的字符串的形式，返回路径参数中的文件的大小
+            <example>这个例子演示了如何使用本方法：
+            <code>
+            string FilePath="C:\myfile.exe";
+            GetSizeOfFile(FilePath);
+            </code>
+            </example>
+            </summary>
+            <exception cref="T:System.ArgumentNullException">fileName 为空引用</exception>
+            <exception cref="T:System.ArgumentException">文件名为空，只包含空白，或包含无效字符。</exception>
+            <exception cref="T:System.Security.SecurityException">调用方没有所要求的权限。</exception>
+            <exception cref="T:System.NotSupportedException">fileName 字符串中间有一个冒号 (:)。 </exception>
+            <param name="FilePath">文件路径</param>
+            <returns>代表文件大小的string</returns>
+        </member>
+        <member name="M:Hive.CToolClass.LogError(System.String)">
+            <summary>
+            记录错误到日志文件中
+            </summary>
+            <param name="error">string类型的错误内容</param>
+        </member>
+        <member name="T:Deep.DBFile.DataCommunicate.GetSystemIcon">
+            <summary> 提供从操作系统读取图标的方法(此帮助类为网上搜集)
+            <para>
+            <remarks>
+            有错误：如.resx扩展名会发生异常退出;以及没有扩展名的情况。
+            <para>
+            对于没有扩展名的情况可以提前判断，如果没有则以扩展名".?"为其查找图标（未知类型专用图标）
+            </para>
+            </remarks>
+            </para>
+            </summary>
+        </member>
+        <member name="M:Deep.DBFile.DataCommunicate.GetSystemIcon.GetIconByFileName(System.String)">
+            <summary>依据文件名读取图标，若指定文件不存在，则返回空值。
+            </summary>
+            <param name="fileName">文件路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:Deep.DBFile.DataCommunicate.GetSystemIcon.GetIconByFileType(System.String,System.Boolean)">
+            <summary>
+            给出文件扩展名（.*），返回相应图标
+            若不以"."开头则返回文件夹的图标。
+            </summary>
+            <param name="fileType"></param>
+            <param name="isLarge"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Deep.DBFile.DataCommunicate.Win32">
+            <summary>
+            定义调用的API方法
+            </summary>
+        </member>
+        <member name="T:Hive.FormMyComputer">
+            <summary>
+            子窗体“我的电脑”，用于添加共享
+            </summary>
+        </member>
+        <member name="F:Hive.FormMyComputer.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.FormMyComputer.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.FormMyComputer.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:Hive.FormMyComputer.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Hive.FormMyComputer.GetIconIndexFromImageList(System.String)">
+            <summary>输入扩展名，从维护的ImageList列表中查找并返回对应扩展名的图标索引;如果不存在于ImageLIst中，则添加之并返回索引
+            ;
+            <para>提供异常情况处理（如扩展名为空的情况）,宜自行先判断</para>
+            </summary>
+            <param name="extensionName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.FormMyComputer.GetSubTree(System.String)">
+            <summary>给出路径，返回子节点数组；使用可以foreach add
+            </summary>
+            <param name="path">物理路径</param>
+            <returns>节点集合</returns>
+        </member>
+        <member name="M:Hive.FormMyComputer.treeViewMyComputer_BeforeExpand(System.Object,System.Windows.Forms.TreeViewCancelEventArgs)">
+            <summary>节点展开事件响应函数
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>        
+        </member>
+        <member name="M:Hive.FormMyComputer.treeViewMyComputer_NodeMouseDoubleClick(System.Object,System.Windows.Forms.TreeNodeMouseClickEventArgs)">
+            <summary>
+            节点双击事件响应方法
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormMyComputer.treeViewMyComputer_NodeMouseClick(System.Object,System.Windows.Forms.TreeNodeMouseClickEventArgs)">
+            <summary>
+            此事件响应方法使右键也可以选中节点（使节点获取焦点）
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormMyComputer.加入共享SToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            使用添加共享的默认属性来添加共享
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.FormMyComputer.共享并编辑属性ToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            编辑共享属性，添加共享
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Hive.TooltipIcon">
+            <summary>
+            TooltipIcon类型枚举
+            </summary>
+        </member>
+        <member name="T:Hive.EditBalloon">
+            <summary>
+            A sample class to manipulate ballon tooltips.
+            Windows XP balloon-tips if used properly can 
+            be very helpful.
+            This class creates a balloon tooltip in the form of a message.
+            This becomes useful for showing important information 
+            quickly to the user.
+            Ever so often we need to avoid certain invalid characters in 
+            input textboxes. Though we do a good job of filtering the characters,
+            we dont necessarily do a good job of informing the user.
+            This class helps immensely under such scenarios.
+            This also helps in a shorter learning cycle of the 
+            application.
+            NOTE: The difference between this and other balloon classes is 
+            that this is made specifically for the edit control and 
+            displays the balloon at the caret position within the textbox.
+            </summary>
+        </member>
+        <member name="M:Hive.EditBalloon.Show">
+            <summary>
+            Show a balloon tooltip for edit control.
+            </summary>
+        </member>
+        <member name="P:Hive.EditBalloon.Title">
+            <summary>
+            Sets or gets the Title.
+            </summary>
+        </member>
+        <member name="P:Hive.EditBalloon.TitleIcon">
+            <summary>
+            Sets or gets the display icon.
+            </summary>
+        </member>
+        <member name="P:Hive.EditBalloon.Text">
+            <summary>
+            Sets or gets the display text.
+            </summary>
+        </member>
+        <member name="P:Hive.EditBalloon.Parent">
+            <summary>
+            Sets or gets the parent.
+            </summary>
+        </member>
+        <member name="T:Hive.Level3FormProperty">
+            <summary>
+            共享资源属性页
+            </summary>
+            <summary>
+            属性页窗体
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.Level3FormProperty.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.Level3FormProperty.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._labelShareName">
+             <summary>
+            共享名字段
+             </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._labelType">
+            <summary>
+            <para>类型，路径，共享名，路径</para>
+            _labelType这里用“文件夹”或“文件”表示，而不是bool值
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._labelPath">
+            <summary>
+            <para>类型，路径，共享名，路径</para>
+            _labelType这里用“文件夹”或“文件”表示，而不是bool值
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._textBoxShareName">
+            <summary>
+            <para>类型，路径，共享名，路径</para>
+            _labelType这里用“文件夹”或“文件”表示，而不是bool值
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._textBoxPath">
+            <summary>
+            <para>类型，路径，共享名，路径</para>
+            _labelType这里用“文件夹”或“文件”表示，而不是bool值
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._checkBoxCanDelete">
+            <summary>
+            是否可由访问者删除,是否可由访问者建立；默认不可
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._checkBoxCanCreate">
+            <summary>
+            是否可由访问者删除,是否可由访问者建立；默认不可
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._labelSize">
+            <summary>
+            资源大小·资源简短信息
+            </summary>
+        </member>
+        <member name="F:Hive.Level3FormProperty._textBoxInfo">
+            <summary>
+            资源大小·资源简短信息
+            </summary>
+        </member>
+        <member name="M:Hive.Level3FormProperty.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Hive.Level3FormProperty.SetControlValue">
+            <summary>(私有方法成员)在重写的Show中使用,用于设置窗体控件
+            </summary>
+        </member>
+        <member name="M:Hive.Level3FormProperty.Show">
+            <summary>重写的Show方法，内先调用SetControlValue();
+            <para>在调用Show之前应先填写控件字段！！！</para>
+            </summary>
+        </member>
+        <member name="M:Hive.Level3FormProperty.Level3FormProperty_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>响应ESC键退出
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.Level3FormProperty.buttonOpen_Click(System.Object,System.EventArgs)">
+            <summary>
+            重新选择路径
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.Level3FormProperty.buttonOK_Click(System.Object,System.EventArgs)">
+             <summary>
+            调用CXmlHandle.ModifyShareElement(）直接修改XML文件！完全正确。
+             而不是根据选中的item改变（Show()方法的舞模式对话框可以允许选择另一个item）
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:Hive.Level3FormProperty.SetOkButtonSave(System.Object,System.EventArgs)">
+            <summary>所有文本框文字改变的事件处理函数；
+            用来改变“确定”按钮为"保存"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Hive.Level3FormProperty.textBoxShareName_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            禁止使用“\”字符的按键事件响应函数
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Hive.SShareElementAttributes">
+            <summary><para>用于表示文件或文件夹属性集合的结构体</para>
+            对应MyShare.xml文件结构，作为一个共享的文件或文件夹的属性列表;
+            常常存放在ListView元素(ListViewItem)的Tag中
+            </summary>
+        </member>
+        <member name="T:Hive.CXmlHandle">
+            <summary>
+            处理MyShare.XML文件的类，包含各种用于处理共享资源（每个作为一个节点存在于XML中）的操作
+            </summary>
+        </member>
+        <member name="F:Hive.CXmlHandle.xmlFile">
+            <summary>
+            XmlFile为MyShare.xml文件路径
+            </summary>
+        </member>
+        <member name="M:Hive.CXmlHandle.Load">
+            <summary>打开默认路径上的MyShare.xml;初始化此类所有字段；
+            Load()和Save()皆私有成员，在其他私有成员函数里面调用
+            </summary>
+        </member>
+        <member name="M:Hive.CXmlHandle.Save">
+            <summary> 保存到XML文件中去
+            </summary>
+        </member>
+        <member name="M:Hive.CXmlHandle.ModifyShareElement(System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.String,System.String)">
+             <summary>使用与结构体SShareElementAttributes的成员相同的参数。建议所有参数根据新LocalPath路径获得，而不依赖于以前的值。
+             <remarks>
+             举例：
+             <code>
+            CXmlHandle.ModifyShareElement(
+                    labelShareName.Text,
+                    textBoxShareName.Text,
+                    System.IO.Directory.Exists(textBoxPath.Text),
+                    textBoxPath.Text,
+                    checkBoxCanDelete.Checked,
+                    checkBoxCanCreate.Checked,
+                    System.IO.Directory.Exists(textBoxPath.Text) ? CToolClass.GetSizeOfFolder(textBoxPath.Text) : (new System.IO.FileInfo(textBoxPath.Text)).Length.ToString(),//!!!!!!!!!!!!!!!!!!!!!!!!!!!!文件夹大小计算方法需要单独线程否则会阻塞
+                    textBoxInfo.Text);
+             </code>
+             </remarks>
+             </summary>
+             <param name="OldShareName">原来的共享名！用于在XML中找到这个节点！！重要！！</param>
+             <param name="ShareName">新共享名</param>
+             <param name="IsFolder">是否为文件夹</param>
+             <param name="LocalPath">本地路径</param>
+             <param name="CanDelete">是否可由访问者删除</param>
+             <param name="CanCreate">可否由访问者在其中建立文件；如果是文件必须为假</param>
+             <param name="Size">大小</param>
+             <param name="Info">其他相关信息</param>
+        </member>
+        <member name="M:Hive.CXmlHandle.DeleteShareElement(System.String)">
+            <summary>根据ShareName参数删除指定共享（在XML中删除一个ShareElement节点）
+            </summary>
+            <param name="ShareName">共享名</param>
+        </member>
+        <member name="M:Hive.CXmlHandle.GetXmlNodeByShareName(System.String)">
+            <summary>根据ShareName返回XmlNode
+            </summary>
+            <param name="ShareName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.CXmlHandle.AddNewShareElement(System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.String,System.String)">
+            <summary>添加新节点(共享资源)到末尾
+            <para> 已经自动调用Load和Save</para>
+            </summary>
+            <param name="ShareName"></param>
+            <param name="IsFolder"></param>
+            <param name="LocalPath"></param>
+            <param name="CanDelete"></param>
+            <param name="CanCreate"></param>
+            <param name="Size"></param>
+            <param name="Info"></param>
+        </member>
+        <member name="M:Hive.CXmlHandle.GetSingleShareElementAttribute(System.String)">
+            <summary>根据ShareName返回SShareElementAttributes结构的可空类型实例，只考虑第一个(不可能有第二个);
+            <para>在转换为原类型时要进行显式转换；</para>
+            如果其为空并赋值给原类型变量，则抛出非法操作异常.
+            </summary>
+            <param name="ShareName"></param>
+            <returns>SShareElementAttributes的可空类型SShareElementAttributes?</returns>
+        </member>
+        <member name="M:Hive.CXmlHandle.GetShareElementAttributes">
+            <summary>返回根据XML文件中所有ShareElement生成的ShareElementAttribute结构体List集合;
+            </summary>
+            <returns>ShareElementAttribute结构体List集合</returns>
+        </member>
+        <member name="F:Hive.FormPublicShare.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Hive.FormPublicShare.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Hive.FormPublicShare.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:Hive.FormPublicShare.GetItemFromListViewOnlineUsers(System.String)">
+            <summary>
+            检查指定IP的用户是否已经在ListViewOnlineUsers里有了，如果有，则返回此ListViewitem的引用，否则返回null。
+            <para>使用IP作为不同用户的区别，以字符串的形式，保存在ListViewItem的Tag里。</para>
+            </summary>
+            <param name="IpString">作为不同用户（item）唯一的区别</param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.FormPublicShare.GetItemsFromListViewOnlineUsersByText(System.String)">
+            <summary>
+            搜索包含指定text的item是否已经在ListViewOnlineUsers里有了。如有则添加找到的item到ListViewFind的item集合中去
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hive.FormPublicShare.SetUserOnlineStatus(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            设置用户图标在线下线状态(允许跨线程调用，invoke)：如果
+            <para>//下线、已知用户--------------》删除用户图标</para>
+            //上线、未知用户（未添加到ListView中的）情况-----------》添加用户图标
+            <para> //上线、已知用户----------->更新其信息</para>
+            ------下线未知用户不做响应
+            </summary>
+            <param name="ipString"></param>
+            <param name="name"></param>
+            <param name="statusInfo"></param>
+            <param name="isOnline"></param>
+        </member>
+        <member name="P:Hive.FormPublicShare.PanelSearchVisiable">
+            <summary>
+            代替PanelSearch属性visiable
+            <para>并在set时，相应地设置PanelSearch和listViewOnlineUsers和listViewFind的显示与隐藏以及Location等</para>
+            <para>一劳永逸?</para>
+            </summary>
+        </member>
+        <member name="T:Hive.CUserInfo">
+            <summary>用户个人信息类
+            </summary>
+        </member>
+        <member name="M:Hive.CUserInfo.#ctor">
+            <summary>在此构造函数中载入User.xml，并赋值给代表个人信息的4个成员变量。
+            <para>使用流式机制，一次性获取PersonalProfile的所有内容</para>
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,24 @@
+F:\My Projects\C# Projects\HivE\HiveServer\bin\Debug\HiveServer.exe
+F:\My Projects\C# Projects\HivE\HiveServer\bin\Debug\HiveServer.pdb
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\ResolveAssemblyReference.cache
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\HiveServer.MainForm.resources
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\HiveServer.Properties.Resources.resources
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\HiveServer.csproj.GenerateResource.Cache
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\HiveServer.exe
+F:\My Projects\C# Projects\HivE\HiveServer\obj\Debug\HiveServer.pdb
+F:\HiVe\HivE\HiveServer\obj\Debug\HiveServer.exe
+F:\HiVe\HivE\HiveServer\obj\Debug\HiveServer.pdb
+F:\HiVe\HivE\HiveServer\bin\Debug\HiveServer.exe
+F:\HiVe\HivE\HiveServer\bin\Debug\HiveServer.pdb
+F:\HiVe\HivE\HiveServer\obj\Debug\ResolveAssemblyReference.cache
+F:\HiVe\HivE\HiveServer\obj\Debug\HiveServer.MainForm.resources
+F:\HiVe\HivE\HiveServer\obj\Debug\HiveServer.Properties.Resources.resources
+F:\HiVe\HivE\HiveServer\obj\Debug\HiveServer.csproj.GenerateResource.Cache
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\bin\Debug\HiveServer.exe
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\bin\Debug\HiveServer.pdb
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\ResolveAssemblyReference.cache
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\HiveServer.MainForm.resources
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\HiveServer.Properties.Resources.resources
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\HiveServer.csproj.GenerateResource.Cache
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\HiveServer.exe
+F:\[HOT!]Computer Science\[hot!]work in lab\[[hot!]Projects in Laboratory\HivE\HivE20080927\HivE\HiveServer\obj\Debug\HiveServer.pdb

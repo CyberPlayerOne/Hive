@@ -1,0 +1,257 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C96AF859-174A-4F20-9125-138E053F3A45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hive</RootNamespace>
+    <AssemblyName>Hive</AssemblyName>
+    <ApplicationIcon>Death Star.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ImageComboBox, Version=1.0.2008.18717, Culture=neutral" />
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Renderers, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.2.3130.38474, Culture=neutral, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CControls.cs" />
+    <Compile Include="CUser.cs" />
+    <Compile Include="CXmlHandle.cs" />
+    <Compile Include="FormChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChat.Designer.cs">
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocumentAllShare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocumentAllShare.Designer.cs">
+      <DependentUpon>FormDocumentAllShare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocument.Designer.cs">
+      <DependentUpon>FormDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDownloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDownloading.Designer.cs">
+      <DependentUpon>FrmDownloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogo.Designer.cs">
+      <DependentUpon>FrmLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMyComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMyComputer.Designer.cs">
+      <DependentUpon>FormMyComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPersonalProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPersonalProfile.Designer.cs">
+      <DependentUpon>FormPersonalProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPublicSharers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPublicSharers.Designer.cs">
+      <DependentUpon>FormPublicSharers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CGetIcon.cs" />
+    <Compile Include="FrmLogoBlueGene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogoBlueGene.Designer.cs">
+      <DependentUpon>FrmLogoBlueGene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOptions.Designer.cs">
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProperty.Designer.cs">
+      <DependentUpon>FrmProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormChat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocument.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocumentAllShare.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormDocumentAllShare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDownloading.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDownloading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMyComputer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormMyComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPersonalProfile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPersonalProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPublicSharers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormPublicSharers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogoBlueGene.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogoBlueGene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProperty.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DockContentNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CToolClass.cs" />
+    <Compile Include="ReadWriteObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\images\Smiley - Grin.png" />
+    <Content Include="Death Star.ico" />
+    <Content Include="Images\M_CDDrive.ico" />
+    <Content Include="Images\M_SoftDiskDrive.ico" />
+    <Content Include="Images\M_HardDiskDrive.ico" />
+    <Content Include="Images\FormPublicShare.ico" />
+    <Content Include="Images\FormPersonalProfile.ico" />
+    <Content Include="Images\FormMyComputer.ico" />
+    <Content Include="Images\FormMyComputer.png" />
+    <Content Include="Images\other\splitter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

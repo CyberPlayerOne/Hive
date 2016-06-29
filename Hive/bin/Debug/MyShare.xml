@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyShare>
+  <ShareElement ShareName="20064289542573.jpg" IsFolder="False" LocalPath="E:\20064289542573.jpg" CanDelete="False" CanCreate="False" Size="104.721 KB" Info="" />
+  <ShareElement ShareName="360.exe" IsFolder="False" LocalPath="F:\download\360setupbeta5.0.exe" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="MusiCs" IsFolder="True" LocalPath="F:\nightwish" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="芯片 (D:)" IsFolder="True" LocalPath="D:\" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="AI" IsFolder="True" LocalPath="F:\AI" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="C#" IsFolder="True" LocalPath="F:\C#" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="movies" IsFolder="True" LocalPath="G:\movies" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+</MyShare>

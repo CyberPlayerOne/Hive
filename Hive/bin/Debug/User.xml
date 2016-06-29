@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<User>
+  <PersonalProfile>
+    <Name>TangXiaoyu</Name>
+    <StatusInfo>dll</StatusInfo>
+    <!--临时-->
+    <Shared>23</Shared>
+    <Downloaded>4</Downloaded>
+  </PersonalProfile>
+  <Settings>
+  </Settings>
+</User>
+<!--使用流式机制读取，使用DOM写入-->

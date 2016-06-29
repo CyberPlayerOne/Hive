@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyShare>
+  <ShareElement ShareName="20064289542573.jpg" IsFolder="False" LocalPath="E:\20064289542573.jpg" CanDelete="False" CanCreate="False" Size="104.721 KB" Info="" />
+  <ShareElement ShareName="livelysetup.exe" IsFolder="False" LocalPath="F:\games\livelysetup.exe" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="CrossFire_Beta3V018_Full.exe" IsFolder="False" LocalPath="F:\games\CrossFire_Beta3V018_Full.exe" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="CrossFire_beta3V018_Full_dl.exe" IsFolder="False" LocalPath="F:\games\CrossFire_beta3V018_Full_dl.exe" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="ShareTest" IsFolder="True" LocalPath="F:\ShareTest" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="打猴子.swf" IsFolder="False" LocalPath="F:\打猴子.swf" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="TopTen.chm" IsFolder="False" LocalPath="F:\TopTen.chm" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="download" IsFolder="True" LocalPath="F:\download" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName="folder.rar" IsFolder="True" LocalPath="E:\folder.rar" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName=".c" IsFolder="True" LocalPath="E:\.c" CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+  <ShareElement ShareName=".c." IsFolder="True" LocalPath="E:\.c." CanDelete="False" CanCreate="False" Size="待修改！" Info="" />
+</MyShare>

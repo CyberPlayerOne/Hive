@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<User>
+  <PersonalProfile>
+    <Name>天下兵马大都督</Name>
+    <StatusInfo>埋骨何须桑梓地， 人生无处不青山</StatusInfo>
+    <!--临时-->
+    <Shared>23</Shared>
+    <Downloaded>4</Downloaded>
+  </PersonalProfile>
+  <Settings>
+  </Settings>
+</User>
+<!--使用流式机制读取，使用DOM写入-->

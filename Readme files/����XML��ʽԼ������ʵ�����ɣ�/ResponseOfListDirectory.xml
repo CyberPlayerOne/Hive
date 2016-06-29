@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResponseOfListDirectory>
+  <ShareElement ShareName="20064289542573.jpg" IsFolder="False" LocalPath="E:\20064289542573.jpg" CanDelete="False" CanCreate="False" Size="104.721 KB" Info="" />
+  <ShareElement ShareName="nightwish" IsFolder="True" LocalPath="F:\nightwish" CanDelete="False" CanCreate="False" Size="待修改！" Info="所有的音乐文件。" />
+  <ShareElement ShareName="打猴子.swf" IsFolder="False" LocalPath="F:\打猴子.swf" CanDelete="True" CanCreate="False" Size="529.243 KB" Info="打小人``" />
+</ResponseOfListDirectory>

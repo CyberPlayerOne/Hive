@@ -1,0 +1,16 @@
+
+DBMS:SQL Server
+Database Name:HiveServer
+Data Table Name:ClientUsers
+
+
+
+
+Data Table ClientUsers structure
+
+id int 4 not null
+IP varchar 50 
+Name varchar 50
+StatusInfo nvarchar 50
+LastSetOnlineTime varchar 50
+ShareListXml ntext 16

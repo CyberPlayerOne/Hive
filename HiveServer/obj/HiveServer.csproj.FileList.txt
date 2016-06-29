@@ -1,0 +1,8 @@
+bin\Debug\HiveServer.exe
+bin\Debug\HiveServer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HiveServer.MainForm.resources
+obj\Debug\HiveServer.Properties.Resources.resources
+obj\Debug\HiveServer.csproj.GenerateResource.Cache
+obj\Debug\HiveServer.exe
+obj\Debug\HiveServer.pdb

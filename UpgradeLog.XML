@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Hive">
+</Property><Property Name="解决方案文件" Value="F:\My Projects\C# Projects\HivE\Hive.sln">
+</Property><Property Name="用户选项文件" Value="F:\My Projects\C# Projects\HivE\Hive.suo">
+</Property><Property Name="Date" Value="2008年9月14日">
+</Property><Property Name="Time" Value="10:38">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Hive.sln" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Hive.suo" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive.suo">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Hive.csproj" Description="项目文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Hive.csproj">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Hive.csproj.user" Description="项目用户文件成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Hive.csproj.user">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\CControls.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\CControls.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\CUser.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\CUser.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\CXmlHandle.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\CXmlHandle.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormChat.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormChat.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormChat.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormChat.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocumentAllShare.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocumentAllShare.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocumentAllShare.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocumentAllShare.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocument.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocument.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocument.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocument.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmDownloading.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmDownloading.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmDownloading.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmDownloading.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmLogo.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmLogo.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmLogo.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmLogo.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormMyComputer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormMyComputer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormMyComputer.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormMyComputer.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPersonalProfile.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPersonalProfile.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPersonalProfile.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPersonalProfile.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPublicSharers.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPublicSharers.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPublicSharers.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPublicSharers.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\CGetIcon.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\CGetIcon.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmProperty.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmProperty.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmProperty.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmProperty.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\MainForm.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\MainForm.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Program.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Program.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\Resources.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\Settings.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\DockContentNew.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\DockContentNew.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\CToolClass.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\CToolClass.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\ReadWriteObject.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\ReadWriteObject.cs">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\Settings.settings" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\bin\Debug\images\Smiley - Grin.png" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\bin\Debug\images\Smiley - Grin.png">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Death Star.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Death Star.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\M_CDDrive.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\M_CDDrive.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\M_SoftDiskDrive.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\M_SoftDiskDrive.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\M_HardDiskDrive.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\M_HardDiskDrive.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\FormPublicShare.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\FormPublicShare.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\FormPersonalProfile.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\FormPersonalProfile.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\FormMyComputer.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\FormMyComputer.ico">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\FormMyComputer.png" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\FormMyComputer.png">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Images\other\splitter.bmp" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Images\other\splitter.bmp">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormChat.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormChat.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocument.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocument.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormDocumentAllShare.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormDocumentAllShare.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmDownloading.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmDownloading.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmLogo.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmLogo.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormMyComputer.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormMyComputer.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPersonalProfile.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPersonalProfile.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FormPublicSharers.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FormPublicSharers.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\FrmProperty.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\FrmProperty.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\MainForm.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\licenses.licx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\licenses.licx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Properties\Resources.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\Hive\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Hive.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Hive" Source="Hive\Hive.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\HiveServer.csproj" Description="项目文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\HiveServer.csproj">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\HiveServer.csproj.user" Description="项目用户文件成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\HiveServer.csproj.user">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\CDatabaseHandler.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\CDatabaseHandler.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\CXmlHandler.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\CXmlHandler.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\MainForm.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\MainForm.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Program.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Program.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Properties\Resources.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Properties\Settings.Designer.cs" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Properties\Settings.settings" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Dart Wader.ico" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Dart Wader.ico">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\MainForm.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\Properties\Resources.resx" Description="文件已成功备份为 F:\My Projects\C# Projects\HivE_vs2005\Backup\HiveServer\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\HiveServer.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="HiveServer" Source="HiveServer\HiveServer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Hive.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Hive.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Hive" Source="Hive\Hive.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="HiveServer" Source="HiveServer\HiveServer.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UdpUser>
+  <Name>XXX</Name>
+  <StatusInfo>XXXXXXXX</StatusInfo>
+  <IsOnline>true</IsOnline>
+</UdpUser>
+<!--IP地址从UdpClient对象中获取-->
